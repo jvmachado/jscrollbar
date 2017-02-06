@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "J's scrollbar",
+  "description": "mac-like scrollbar",
+  "version": "1.1",
+
+  "content_scripts": [
+    {
+       "matches": ["http://*/*", "https://*/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
